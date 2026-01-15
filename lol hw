@@ -1,0 +1,73 @@
+<html>
+<body>
+<h2>JavaScript Methods</h2>
+<p> Methods</p>
+<script>
+    var str = "InTErnAtiOnAL";
+    document.write(str.toUpperCase());
+    document.write("<br>");
+    document.write(str.toLowerCase());
+    document.write("<br>");
+    document.write(str.startsWith('i'));
+    document.write("<br>");
+    var str1 = " It's called methods";
+    var patt = new RegExp("about");
+    var res = patt.test(str1);
+    document.write(res);
+</script>
+</body>
+</html>
+      document.write("<br>");
+      document.write(str.toLowercase());
+      document.write("<br>");
+      document.write(str.startsWith('i'));
+      document.write("<br>");
+    
+        var str1= "It's called methods";
+        var patt= new RegExp("about");
+        var res= patt.test(str);
+        document.write(res);
+        </script>
+        
+        <p>For loop</p>
+        <p id="VEG"></p>
+        <script>
+             var vegetable=["Brinjal","Pumpkin","Tomato",
+                "Potato","Lettuce","Pea"];
+             var text="";
+             var o;
+    
+             for (o=0; o < vegetable.length;o++){
+             text += vegetable [o]+"<br>";
+             }
+             document.getElementById("VEG").innerHTML = text;
+        </script>
+         <p id="demo"></p>
+      
+    <script>
+    var day;
+    switch (new Date().getDay()){
+      case 0:
+      day="Sunday";
+      break;
+      case 1:
+       day="Monday";
+      break;
+      case 2:
+        day="Tuesday";
+      break;
+      case 3:
+       day="Wednesday";
+      break;
+      case 4:
+        day="Thursday";
+      break;
+      case 5:
+       day="Friday";
+      break;
+      case 6:
+         day="Saturday";
+    }
+    document.getElementById("demo").innerHTML= "Today is " + day;
+  </script>
+    </body>
